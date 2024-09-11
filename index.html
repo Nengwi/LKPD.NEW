@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #e21313;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(223, 197, 111);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #e0dd1c;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #e7afaf;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #e93d3d;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(148, 174, 248);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #e9c93d;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>My Friend</p>
+</div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>SAHABATKU</h2>
+      <h5>Rabu, 22 april 2024</h5>
+      <div class="fakeimg" style="height:300px; width: 450px;"><img src="c:\Users\nengm\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\A640F3ACCAEBCB81205E773A65E3D894\WhatsApp Image 2024-09-05 at 08.03.00_95b35cdc.jpg" width="100%" height="100%"></div>
+      <p>Cantik bukan? woaah yaa jelas!</p>
+      <p>Perkenalkan dia adalah teman sekaligus sahabat ku yang bernama Rahma biasa dipanggil Rahma </p>
+    </div>
+    <div class="card">
+      <h2>Fotbar</h2>
+      <h5>Acara Mini Soccer</h5>
+      <div class="fakeimg" style="height:300px; width: 500px;"><img src="c:\Users\nengm\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\1595FF9D30722C171E13E74E4A1455C2\WhatsApp Image 2024-09-05 at 08.28.52_ca443028.jpg" width="100%" height="100%"></div>
+      <p>Ini fotbar kami waktu ada lomba Agustusan yaitu Mini Soccer</p>
+      <p>Ini foto kami yang dikira orang memakai HP Iphone padahal bukan hahahaha</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Fotoku</h2>
+      <div class="fakeimg" style="height:200px; width: 200px";><img src="c:\Users\nengm\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\A08B088D8A1818286C3641BB88A36CA9\WhatsApp Image 2024-09-05 at 08.39.54_49883975.jpg" width="100%" height="100%"></div>
+
+      <p>iya tau cantik ko, udh jangan dilihat trus ntar kepelet 'iwwhh PD amat'  </p>
+    </div>
+    <div class="card">
+      <h3>Foto Terkeren</h3>
+      <div class="fakeimg" style="height:200px; width: 200px";><img src="c:\Users\nengm\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\B68A713024CFFC3A59C2936E3BC3F6E8\WhatsApp Image 2024-09-05 at 08.38.40_1c34ef40.jpg" width="100%" height="100%"></div>
+      <div class="fakeimg" style="height:200px; width: 200px";><img src="c:\Users\nengm\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\82AFE738E1CD207F17505CC80D19B0B8\WhatsApp Image 2024-09-10 at 20.41.30_773dc9a1.jpg" width="100%" height="100%"> </div>
+      
+    </div>
+    
+
+
+</body>
+</html>
+
+
